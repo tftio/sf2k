@@ -1,0 +1,139 @@
+{
+  "resources": [
+    {
+      "id": "iron",
+      "name": "Iron Ore",
+      "description": "Common metallic ore. Essential for hull repairs.",
+      "base_value": 5,
+      "weight": 2,
+      "rarity": 0.8,
+      "category": "mineral"
+    },
+    {
+      "id": "titanium",
+      "name": "Titanium",
+      "description": "Lightweight structural metal used in ship components.",
+      "base_value": 15,
+      "weight": 1,
+      "rarity": 0.5,
+      "category": "mineral"
+    },
+    {
+      "id": "silicon",
+      "name": "Silicon",
+      "description": "Semiconductor material for electronics and sensors.",
+      "base_value": 8,
+      "weight": 1,
+      "rarity": 0.7,
+      "category": "mineral"
+    },
+    {
+      "id": "water_ice",
+      "name": "Water Ice",
+      "description": "Frozen water. Can be processed into fuel and life support.",
+      "base_value": 3,
+      "weight": 3,
+      "rarity": 0.6,
+      "category": "volatile"
+    },
+    {
+      "id": "ammonia",
+      "name": "Ammonia",
+      "description": "Nitrogen compound used in agricultural systems.",
+      "base_value": 7,
+      "weight": 2,
+      "rarity": 0.4,
+      "category": "volatile"
+    },
+    {
+      "id": "deuterium",
+      "name": "Deuterium",
+      "description": "Heavy hydrogen isotope. Premium starship fuel.",
+      "base_value": 25,
+      "weight": 1,
+      "rarity": 0.2,
+      "category": "fuel"
+    },
+    {
+      "id": "sulfur",
+      "name": "Sulfur",
+      "description": "Volcanic mineral used in chemical processing.",
+      "base_value": 6,
+      "weight": 2,
+      "rarity": 0.5,
+      "category": "mineral"
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "description": "Precious metal valued across all known civilizations.",
+      "base_value": 50,
+      "weight": 3,
+      "rarity": 0.1,
+      "category": "precious"
+    },
+    {
+      "id": "endurium",
+      "name": "Endurium",
+      "description": "Mysterious crystalline material of unknown origin. Extremely valuable.",
+      "base_value": 200,
+      "weight": 1,
+      "rarity": 0.02,
+      "category": "exotic"
+    },
+    {
+      "id": "organics",
+      "name": "Organic Compounds",
+      "description": "Complex carbon molecules from living ecosystems.",
+      "base_value": 12,
+      "weight": 1,
+      "rarity": 0.3,
+      "category": "biological"
+    },
+    {
+      "id": "water",
+      "name": "Fresh Water",
+      "description": "Liquid water suitable for life support.",
+      "base_value": 4,
+      "weight": 3,
+      "rarity": 0.4,
+      "category": "volatile"
+    },
+    {
+      "id": "rare_earth",
+      "name": "Rare Earth Elements",
+      "description": "Mix of lanthanides and actinides for advanced electronics.",
+      "base_value": 35,
+      "weight": 2,
+      "rarity": 0.15,
+      "category": "mineral"
+    },
+    {
+      "id": "glass_sand",
+      "name": "Glass Sand",
+      "description": "Ultra-pure silica sand for optical components.",
+      "base_value": 10,
+      "weight": 2,
+      "rarity": 0.45,
+      "category": "mineral"
+    },
+    {
+      "id": "lithium",
+      "name": "Lithium",
+      "description": "Light metal for energy storage systems.",
+      "base_value": 18,
+      "weight": 1,
+      "rarity": 0.3,
+      "category": "mineral"
+    },
+    {
+      "id": "fuel_cell",
+      "name": "Fuel Cell",
+      "description": "Refined fuel unit. Restores ship fuel directly.",
+      "base_value": 30,
+      "weight": 2,
+      "rarity": 0.15,
+      "category": "fuel"
+    }
+  ]
+}

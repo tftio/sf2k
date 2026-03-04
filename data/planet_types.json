@@ -1,0 +1,95 @@
+{
+  "planet_types": [
+    {
+      "id": "barren",
+      "name": "Barren",
+      "description": "Rocky, lifeless world with no atmosphere.",
+      "tile_palette": ["rock", "dust", "crater", "gravel"],
+      "atmosphere": false,
+      "gravity_range": [0.1, 0.6],
+      "temperature_range": [-200, 150],
+      "hazards": ["radiation"],
+      "resource_density": 0.3,
+      "common_resources": ["iron", "titanium", "silicon"],
+      "landing_difficulty": 0.2
+    },
+    {
+      "id": "ice",
+      "name": "Ice World",
+      "description": "Frozen surface covered in water and ammonia ice.",
+      "tile_palette": ["ice", "snow", "frozen_lake", "glacier"],
+      "atmosphere": true,
+      "gravity_range": [0.3, 0.8],
+      "temperature_range": [-250, -50],
+      "hazards": ["cold"],
+      "resource_density": 0.2,
+      "common_resources": ["water_ice", "ammonia", "deuterium"],
+      "landing_difficulty": 0.3
+    },
+    {
+      "id": "volcanic",
+      "name": "Volcanic",
+      "description": "Geologically active world with lava flows and toxic gas.",
+      "tile_palette": ["lava", "basalt", "obsidian", "ash"],
+      "atmosphere": true,
+      "gravity_range": [0.5, 1.2],
+      "temperature_range": [200, 800],
+      "hazards": ["heat", "toxic_gas"],
+      "resource_density": 0.5,
+      "common_resources": ["sulfur", "platinum", "endurium"],
+      "landing_difficulty": 0.6
+    },
+    {
+      "id": "temperate",
+      "name": "Temperate",
+      "description": "Earth-like world with liquid water and moderate climate.",
+      "tile_palette": ["grass", "forest", "water", "sand", "mountain"],
+      "atmosphere": true,
+      "gravity_range": [0.7, 1.3],
+      "temperature_range": [-20, 45],
+      "hazards": [],
+      "resource_density": 0.4,
+      "common_resources": ["organics", "water", "rare_earth"],
+      "landing_difficulty": 0.1
+    },
+    {
+      "id": "desert",
+      "name": "Desert",
+      "description": "Arid world with sand dunes and sparse mineral deposits.",
+      "tile_palette": ["sand", "dune", "mesa", "dry_lake"],
+      "atmosphere": true,
+      "gravity_range": [0.4, 1.0],
+      "temperature_range": [30, 120],
+      "hazards": ["heat"],
+      "resource_density": 0.25,
+      "common_resources": ["silicon", "glass_sand", "lithium"],
+      "landing_difficulty": 0.2
+    },
+    {
+      "id": "gas_giant",
+      "name": "Gas Giant",
+      "description": "Massive planet with no solid surface. Cannot land.",
+      "tile_palette": [],
+      "atmosphere": true,
+      "gravity_range": [2.0, 5.0],
+      "temperature_range": [-180, -100],
+      "hazards": ["crushing_gravity", "storms"],
+      "resource_density": 0.0,
+      "common_resources": [],
+      "landing_difficulty": -1
+    },
+    {
+      "id": "toxic",
+      "name": "Toxic",
+      "description": "Dense atmosphere of corrosive chemicals. Dangerous but resource-rich.",
+      "tile_palette": ["acid_pool", "corroded_rock", "chemical_deposit", "vent"],
+      "atmosphere": true,
+      "gravity_range": [0.6, 1.1],
+      "temperature_range": [50, 300],
+      "hazards": ["toxic_gas", "acid"],
+      "resource_density": 0.6,
+      "common_resources": ["platinum", "endurium", "rare_earth"],
+      "landing_difficulty": 0.7
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "star_types": [
+    {
+      "id": "class_o",
+      "name": "Class O",
+      "description": "Blue supergiant. Extremely hot, young star.",
+      "color": "#6688ff",
+      "temperature_k": 35000,
+      "luminosity": 5.0,
+      "rarity": 0.02,
+      "max_planets": 3,
+      "habitable_chance": 0.05,
+      "fuel_available": true
+    },
+    {
+      "id": "class_b",
+      "name": "Class B",
+      "description": "Blue-white giant. Very hot and luminous.",
+      "color": "#88aaff",
+      "temperature_k": 20000,
+      "luminosity": 3.5,
+      "rarity": 0.05,
+      "max_planets": 4,
+      "habitable_chance": 0.1,
+      "fuel_available": true
+    },
+    {
+      "id": "class_a",
+      "name": "Class A",
+      "description": "White star. Hot with strong hydrogen lines.",
+      "color": "#ccccff",
+      "temperature_k": 9000,
+      "luminosity": 2.0,
+      "rarity": 0.08,
+      "max_planets": 5,
+      "habitable_chance": 0.15,
+      "fuel_available": true
+    },
+    {
+      "id": "class_f",
+      "name": "Class F",
+      "description": "Yellow-white star. Moderate temperature.",
+      "color": "#ffffcc",
+      "temperature_k": 7000,
+      "luminosity": 1.5,
+      "rarity": 0.12,
+      "max_planets": 6,
+      "habitable_chance": 0.3,
+      "fuel_available": true
+    },
+    {
+      "id": "class_g",
+      "name": "Class G",
+      "description": "Yellow star like Sol. Prime habitable zone.",
+      "color": "#ffff88",
+      "temperature_k": 5500,
+      "luminosity": 1.0,
+      "rarity": 0.18,
+      "max_planets": 8,
+      "habitable_chance": 0.5,
+      "fuel_available": true
+    },
+    {
+      "id": "class_k",
+      "name": "Class K",
+      "description": "Orange dwarf. Cooler, long-lived star.",
+      "color": "#ffaa44",
+      "temperature_k": 4000,
+      "luminosity": 0.6,
+      "rarity": 0.25,
+      "max_planets": 6,
+      "habitable_chance": 0.35,
+      "fuel_available": true
+    },
+    {
+      "id": "class_m",
+      "name": "Class M",
+      "description": "Red dwarf. Most common star type.",
+      "color": "#ff4444",
+      "temperature_k": 3000,
+      "luminosity": 0.3,
+      "rarity": 0.3,
+      "max_planets": 4,
+      "habitable_chance": 0.2,
+      "fuel_available": true
+    }
+  ]
+}

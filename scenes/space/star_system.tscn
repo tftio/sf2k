@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[node name="StarSystem" type="Node3D"]
+
+[node name="StarMesh" type="MeshInstance3D" parent="."]
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+pixel_size = 0.02
+text = "Star System"
+font_size = 24
+modulate = Color(0.7, 0.7, 0.8, 1)
+billboard = 1
